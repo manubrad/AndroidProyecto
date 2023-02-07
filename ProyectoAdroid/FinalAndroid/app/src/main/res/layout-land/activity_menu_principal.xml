@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heladofondo"
+    tools:context=".MenuPrincipal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="690dp"
+        android:layout_height="377dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="272dp"
+            android:layout_height="257dp"
+            android:layout_marginEnd="56dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.504"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="341dp"
+            android:layout_height="118dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+
+                android:id="@+id/buttoncomprar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="298dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/purple_200"
+
+
+                android:onClick="Comprar"
+                android:text="@string/Carrito"
+                android:textColor="#4A148C"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+
+                android:id="@+id/jugar"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="299dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/purple_200"
+
+
+                android:onClick="play"
+                android:text="@string/jug"
+                android:textColor="#4A148C"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

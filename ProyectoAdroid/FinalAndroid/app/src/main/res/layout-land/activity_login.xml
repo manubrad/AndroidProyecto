@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heladofondo"
+    tools:context=".Login">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="684dp"
+        android:layout_height="369dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="199dp"
+            android:layout_height="137dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.927"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.575"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout"
+            android:layout_width="413dp"
+            android:layout_height="184dp"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <EditText
+                android:id="@+id/NomLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/nombreLog"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColorHint="#4A148C"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <EditText
+                android:id="@+id/ContLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/contraseñaLog"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColorHint="#4A148C" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/ButtBuscar"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_200"
+
+                    android:onClick="buscarUsuario"
+                    android:text="@string/buttonAceptar"
+                    android:textColor="#4A148C"
+                    tools:ignore="TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/Bregis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_200"
+                    android:onClick="Registro"
+                    android:text="@string/buttonRegistrar"
+                    android:textColor="#4A148C" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

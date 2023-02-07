@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IceCreamRaziel</string>
+
+
+    <!--lOGIN/Registrarse-->
+    <string name="nombreLog">Name</string>
+    <string name="contraseñaLog">Password</string>
+    <string name="buttonAceptar">Accept</string>
+    <string name="buttonRegistrar">Check in</string>
+    <string name="logo">logo</string>
+
+
+    <string name="nombreReg">Name</string>
+    <string name="contraseñaReg">Password</string>
+    <string name="buttonAceptReg">Accept</string>
+    <string name="logoReg">logo</string>
+    <string name="email">email</string>
+
+    <!--TuFoto-->
+    <string name="imagenView">image</string>
+    <string name="simboloFoto">camera</string>
+    <string name="Carrito">Buy</string>
+    <string name="jug">Game</string>
+    <string name="foto">Photo</string>
+    <string name="buttonVerFoto">Watch</string>
+
+
+    <!--pedirProductos-->
+
+
+    <string name="MenuPrincipal">Main Menu</string>
+    <string name="txt_helado">Choose your ice cream</string>
+    <string name="botonPedir">Purchase</string>
+
+    <string name="salidaDato"> Purchased</string>
+    <!--MenuBar-->
+    <string name="item1">Login</string>
+    <string name="item2">Purchase </string>
+    <string name="item3">Game </string>
+
+    <!--MelodiaFiestaHelados-->
+    <string name="cantante">Melody</string>
+    <string name="bajo">Melody</string>
+    <string name="chulo">Melody</string>
+    <string name="borracho">Melody</string>
+    <string name="animado">Melody</string>
+</resources>

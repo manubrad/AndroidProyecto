@@ -1,0 +1,53 @@
+<resources>
+
+
+    <!--APP-->
+    <string name="app_name">HeladeriaRaziel</string>
+
+
+    <!--lOGIN/Registrarse-->
+    <string name="nombreLog">Nombre</string>
+    <string name="contraseñaLog">Contraseña</string>
+    <string name="buttonAceptar">Aceptar</string>
+    <string name="buttonRegistrar">Registrarse</string>
+    <string name="logo">logo</string>
+
+
+    <string name="nombreReg">Nombre</string>
+    <string name="contraseñaReg">Contraseña</string>
+    <string name="buttonAceptReg">Aceptar</string>
+    <string name="logoReg">logo</string>
+    <string name="email">email</string>
+
+    <!--TuFoto-->
+    <string name="imagenView">imagen</string>
+    <string name="simboloFoto">camara</string>
+    <string name="Carrito">Comprar</string>
+    <string name="jug">Jugar</string>
+
+    <string name="foto">foto</string>
+    <string name="buttonVerFoto">Ver</string>
+
+    <!--pedirProductos-->
+
+    <string name="MenuPrincipal">MenuPrincipal</string>
+    <string name="txt_helado">Selecciona tu helado</string>
+    <string name="botonPedir">Pedir</string>
+
+    <string name="salidaDato"> Datos</string>
+    <!--MenuBar-->
+    <string name="item1">Login</string>
+    <string name="item2">Comprar </string>
+    <string name="item3">Melodia</string>
+
+    <!--MelodiaFiestaHelados-->
+
+    <string name="cantante">Melodia</string>
+    <string name="bajo">Melodia</string>
+    <string name="chulo">Melodia</string>
+    <string name="borracho">Melodia</string>
+    <string name="animado">Melodia</string>
+    <string name="img">img</string>
+
+
+</resources>
